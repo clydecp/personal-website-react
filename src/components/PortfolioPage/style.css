@@ -1,0 +1,33 @@
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+.portfolio-list-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding-top: 30px; 
+    padding-bottom: 50px;
+}
+
+/* .portfolio-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    gap: 50px;
+} */
+

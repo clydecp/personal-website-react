@@ -1,0 +1,16 @@
+.gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-container img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
